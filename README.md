@@ -9,7 +9,7 @@ When I try to run my call-by-value interpreter which is written in Haskell,
 
 I found that there are something wired occurred:
 
-PEBook told me, when it comes to $h(x,y)=if\,\,\,y\,\,\,<=\,\,\,1\,\,\,then\,\,\,y\,\,\,else\,\,\,h(\,\,h(x+1,y),y-2\,\,)$
+PEBook told me, when it comes to $h(x,y)=if \quad\quad y\quad\quad<=\quad\quad 1\quad\quad then\quad\quad y\quad\quad else\quad\quad h(\quad h(x+1,y),y-2\quad )$
 
 using call-by-name, h(1,2) evaluates to 0; but call-by-value is undefined($\bot$)
 
