@@ -29,6 +29,7 @@ My call-by-value interpreter, in Lazy evaluation, which delays the evaluation of
 
 is ACTUALLY a call-by-name interpreter! Haha!
 
+![f](f.png)
 
 By the way, if you don't familiar with call-by-name and call-by-value:
 
